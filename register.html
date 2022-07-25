@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Đăng ký</title>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./trangChu.html">SHOPFLY</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="./product.html">Product</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./aboutUs.html">About Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="./login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container" style="width: 50%;">
+        <caption><h1 align="center">MEMBER REGISTER</h1></caption>
+        <form class="form-horizontal" action="/action_page.php">
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="username">Username:</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="username" placeholder="Enter username">
+              </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Password:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Confirmed Password:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+              </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="tel">Telephone:</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="tel" placeholder="Vui lòng nhập từ 8-12 số">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2 radio-inline"><input type="radio" name="optradio" checked>Male</label>
+                <label class="radio-inline"><input type="radio" name="optradio">Female</label>
+            </div>
+            <div style="padding-left: 10%;">
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Sport</label>
+                  </div>
+                  <div class="checkbox">
+                    <label><input type="checkbox" value="">Music</label>
+                  </div>
+                  <div class="checkbox">
+                    <label><input type="checkbox" value="">Reading</label>
+                  </div>
+                  <div class="checkbox">
+                    <label><input type="checkbox" value="">Game</label>
+                  </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="country">Country:</label>
+                <select style="margin-top: 8px;" id="sel1">
+                  <option>Vietnamese</option>
+                  <option>Laos</option>
+                  <option>ThaiLand</option>
+                  <option>Cambodia</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="avatar">Avatar: </label>
+                <input type="file"> <br>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="avatar">Comments: </label>
+                <textarea cols="50" rows="5"></textarea> <br>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="avatar">Capcha: </label>
+                <input value="DAE34R" disabled>
+              </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="reset" class="btn btn-danger">Xóa</button>
+                <input type="button" class="btn btn-info" value="Help" onclick="alert('Đang bảo trì....')">
+              </div>
+            </div>
+            
+          </form>
+    </div>
+</body>
+</html>
