@@ -3,10 +3,10 @@ CHIC LIGHTING
 - Semester: I
 - Batch No: T1.2204.M0
 - List Of Member:
-    1. Nguyễn Quang Sáng (SangNQTS2204020@fpt.edu.vn)
-    2. Cao Hoài Nam (NamCHTS2204026@fpt.edu.vn)
-    3. Trần Gia Thuận (ThuanTGTS2204008@fpt.edu.vn)
-    4. Trần Thành Tâm (TamTTTS2204011@fpt.edu.vn)
+    1. Nguyễn Quang Sáng (Student1379710)
+    2. Cao Hoài Nam (Student1376123)
+    3. Trần Gia Thuận (Student1379727)
+    4. Trần Thành Tâm (Student1379726)
 =======================================================================================================
 - Documentations: https://github.com/shinjytroy/ChicLighting_Group04/tree/main/Documentations
 =======================================================================================================
