@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <div class="container-fluid">
+      <img class="navbar__logo" src="./images/logo_fix2.png" alt="logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" ng-class="getClass('/home')" href="#!/">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">PRODUCT</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#!product/ceilingLight">CEILING LIGHTS</a></li>
+              <li><a class="dropdown-item" href="#!product/lamp">LAMPS</a></li>
+              <li><a class="dropdown-item" href="#!product/wallLight">WALL LIGHTS</a></li>
+              <li><a class="dropdown-item" href="#!product/outdoorLight">OUTDOOR LIGHTS</a></li>
+              <li><a class="dropdown-item" href="#!product/fan">FANS</a></li>
+              <li><a class="dropdown-item" href="#!product/homeAccent">HOME ACCENTS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" ng-class="getClass('/gallery')" href="#!gallery">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" ng-class="getClass('/blogNews')" href="#!blogNews">BLOG & NEWS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" ng-class="getClass('/contact')" href="#!contact">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" ng-class="getClass('/aboutUs')" href="#!aboutUs">ABOUT US</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+        <ul class="navbar-nav me-auto navbar-right mx-auto">
+          <li class="nav-item"><a class="btn btn-default nav-link" href="#!register">Sign Up</a></li>
+          <li class="nav-item"><a class="btn btn-default nav-link" href="#!login">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
