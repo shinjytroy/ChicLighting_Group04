@@ -9,7 +9,7 @@ app.config(function($routeProvider){
         templateUrl: "pages/product.html",
         controller: "myCtrl"
     })
-    .when("/product/:type", {
+    .when("/product/:type?/:brand?", {
         templateUrl: "pages/product.html",
         controller: "myCtrl"
     })
@@ -37,6 +37,10 @@ app.config(function($routeProvider){
         templateUrl: "pages/aboutUs.html",
         controller: "myCtrl"
     })
+    .when("/more/:tab?", {
+        templateUrl: "pages/more/more.html",
+        controller: "myCtrl"
+    })
     .when("/dashboard", {
         templateUrl: "pages/dashboard.html",
         controller: "myCtrl"
@@ -49,7 +53,9 @@ app.config(function($routeProvider){
         redirectTo: '/home'
     })
 });
-app.controller("myCtrl", function($scope, $http, $routeParams, $location, $window){
+app.controller("myCtrl", function($scope, $http, $routeParams, $location, $window , $rootScope){
+    
+    // $scope.brand = $scope.productModel.brand;
     //2.1. Khai báo hàm đọc data từ file JSON (Read - R)
     function getData(){
         $http.get("LightsDB.json")
@@ -65,12 +71,11 @@ app.controller("myCtrl", function($scope, $http, $routeParams, $location, $windo
                  $scope.productList = JSON.parse(sessionStorage.getItem("sesProducts"));
             }
         });
-
     }
     //2.2. Gọi hàm getData để load dữ liệu vào danh sách
     getData();
     //3.1. Khai báo hàm đọc data từ file JSON
-    $scope.isLogin = false;
+    $rootScope.isLogin = false;
     function getUser(){
         $http.get("UserDB.json")
         .then(function(rspt){
@@ -82,41 +87,25 @@ app.controller("myCtrl", function($scope, $http, $routeParams, $location, $windo
                 $scope.userList = JSON.parse(sessionStorage.getItem("sesUsers"));
             }
             if(sessionStorage.getItem("login")){
-                $scope.isLogin = true;
+                $rootScope.isLogin = true;
             }
         })
     }
     getUser();
-    // function isLogin(){
-    //     if($scope.userModel.username == "admin123" && $scope.userModel.password == "admin@123"){
-    //         // alert ("Login successfully");
-    //         // $location.path("#!dashboard");
-    //         // // windows.$location = "pages/dashboard.html";
-    //         // return true;
-    //         console.log("OK")
-    //     }
-    //     else if($scope.userModel.username == "user123" && $scope.userModel.password == "user@123"){
-    //         // alert ("Login successfully");
-    //         // $location.path("#!userInfo");
-    //     }
-    //     else{
-    //         // alert ("Login fail");
-    //         console.log("Not OK")
-    //     }
-    // }
     $scope.login = function(){
         var user = checkLogin($scope.userModel.username, $scope.userModel.password);
         if(user){
             sessionStorage.setItem('login',JSON.stringify(user));
-            $scope.isLogin = true;
+            $rootScope.isLogin = true;
+            $location.path('/');
         }else{
-            $scope.isLogin = false;
+            $rootScope.isLogin = false;
             alert('Thông tin tài khoản không hợp lệ');
         }
     }
     function checkLogin(username, pass){
         for (var i = 0; i < $scope.userList.length; i++){
-            if( $scope.userList[i].username == username && $scope.userList[i].password == pass){
+            if( $scope.userList[i].username === username && $scope.userList[i].password === pass){
                 return $scope.userList[i];
             }
         }
@@ -124,6 +113,12 @@ app.controller("myCtrl", function($scope, $http, $routeParams, $location, $windo
     }
     // Chuyển đổi biến login ở session Storage thành biến userData
     $scope.userData = JSON.parse(sessionStorage.getItem("login"));
+    // Sign Out
+    $scope.signOut = function(){
+        sessionStorage.removeItem('login');
+        $rootScope.isLogin = false;
+    }
+
     //2.5.1 Sửa record ( U - Update)
     //a. Chọn record trong danh sách
     $scope.btnUpdate = true;
@@ -188,5 +183,14 @@ app.controller("myCtrl", function($scope, $http, $routeParams, $location, $windo
     }
     else{
         $scope.title = "";
+    }
+    if($routeParams.brand === "chicLamp"){
+        $scope.brand = "Chic Lamp";
+    }
+    else if($routeParams.brand === "lumens"){
+        $scope.brand = "Lumens";
+    }
+    else if($routeParams.brand === "ikea"){
+        $scope.brand = "Ikea";
     }
 })

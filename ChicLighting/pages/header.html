@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-sm bg-light navbar-light">
-    <div class="container-fluid">
-      <img class="navbar__logo" src="./images/logo_fix2.png" alt="logo">
+<nav class="header__navbar navbar navbar-expand-sm navbar-light">
+    <div class="container">
+      <a href="#!home"><img class="navbar__logo" src="./images/logo_fix2.png" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -10,14 +10,23 @@
             <a class="nav-link" ng-class="getClass('/home')" href="#!/">HOME</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">PRODUCT</a>
+            <a class="nav-link dropdown-toggle" role="menu" data-bs-toggle="dropdown">PRODUCT</a>
             <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#!product/">ALL PRODUCTS</a></li>
               <li><a class="dropdown-item" href="#!product/ceilingLight">CEILING LIGHTS</a></li>
               <li><a class="dropdown-item" href="#!product/lamp">LAMPS</a></li>
               <li><a class="dropdown-item" href="#!product/wallLight">WALL LIGHTS</a></li>
               <li><a class="dropdown-item" href="#!product/outdoorLight">OUTDOOR LIGHTS</a></li>
               <li><a class="dropdown-item" href="#!product/fan">FANS</a></li>
               <li><a class="dropdown-item" href="#!product/homeAccent">HOME ACCENTS</a></li>
+              <li class="nav-item dropdown dropend">
+                <a class="nav-link dropdown-toggle" role="menu" data-bs-toggle="dropdown">LED LIGHTS</a>
+                <ul class="submenu dropdown-menu">
+                  <li><a class="dropdown-item" href="#!product/spotLight">Spot Lights</a></li>
+                  <li><a class="dropdown-item" href="#!product/decorationLight">Decoration Lights</a></li>
+                  <li><a class="dropdown-item" href="#!product/smartLight">Smart Lights</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
           <li class="nav-item">
@@ -29,19 +38,42 @@
           <li class="nav-item">
             <a class="nav-link" ng-class="getClass('/contact')" href="#!contact">CONTACT</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" ng-class="getClass('/aboutUs')" href="#!aboutUs">ABOUT US</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="menu" data-bs-toggle="dropdown">MORE</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#!more/FAQ">FAQ</a></li>
+              <li><a class="dropdown-item" href="#!more/siteMap">Site Map</a></li>
+              <li><a class="dropdown-item" href="#!more/feedback">Feedback</a></li>
+              <li><a class="dropdown-item" href="#!more/download">Download</a></li>
+            </ul>
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="text" placeholder="Search">
-          <button class="btn btn-primary" type="button">Search</button>
-        </form>
-        <ul class="navbar-nav me-auto navbar-right mx-auto">
-          <li class="nav-item"><a class="btn btn-default nav-link" href="#!register">Sign Up</a></li>
-          <li class="nav-item"><a class="btn btn-default nav-link" href="#!login">Login</a></li>
+        <ul class="navbar-nav ml-auto navbar-right" ng-hide="isLogin">
+          <li class="nav-item"><a class="btn btn-default nav-link text-primary" href="#!register"><i class="fas fa-address-card"></i> SIGN UP</a></li>
+          <li class="nav-item"><a class="btn btn-default nav-link text-success border border-success" href="#!login"><i class='fas fa-sign-in-alt'></i> SIGN IN</a></li>
+        </ul>
+        <ul class="navbar-nav ml-auto navbar-right" ng-show="isLogin">
+          <li class="nav-item"><a class="btn btn-default nav-link" href="#!userInfo">Hi <b>{{userData.fullname}}</b></a></li>
+          <li class="nav-item"><a class="btn btn-danger" href="#!/" ng-click="signOut();">SIGN OUT</a></li>
+        </ul>
+        <ul>
+          <li class="text-danger" style="list-style-type: none">
+            <small id="user-counter" class="website-counter border cicle rounded-circle"></small>
+            <i class="fas fa-user"></i>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
- 
+  <!-- Website Counter viewer -->
+ <script>
+   var visitCount = sessionStorage.getItem("page_view");
+	if (visitCount) {
+		visitCount = Number(visitCount) + 1;
+		sessionStorage.setItem("page_view", visitCount);
+	  } else {
+		visitCount = 1;
+		sessionStorage.setItem("page_view", 1);
+	  }
+	document.getElementById("user-counter").innerHTML = visitCount;
+ </script>

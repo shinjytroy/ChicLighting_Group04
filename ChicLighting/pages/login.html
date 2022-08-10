@@ -1,30 +1,27 @@
-    <div class="container my-3">
-        <caption><h1 align="center">MEMBER LOGIN</h1></caption>
-        <form class="form-horizontal" action="index.html#!/userInfo">
-            <div class="form-group">
-              <label class="control-label col-sm-2">Username:</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" ng-model="userModel.username" placeholder="Enter username">
-              </div>
+<section class="login container" style="padding: 130px 0;">
+  <div class="login__form border border-2 rounded-3 mx-auto w-50 py-4">
+    <caption><h1 align="center" style="color: green;">MEMBER LOGIN</h1></caption>
+    <form class="form-horizontal col-8 mx-auto" action="">
+        <div class="form-group">
+          <label class="form-label">Username:</label>
+          <div>
+            <input type="text" class="form-control" ng-model="userModel.username" placeholder="Enter username" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="pwd">Password:</label>
+          <div>
+            <input type="password" class="form-control" ng-model="userModel.password" placeholder="Enter password" required>
+          </div>
+        </div>
+        <div class="form-group">
+            <div class="checkbox clearfix">
+              <label class="float-start"><input type="checkbox"> Remember me</label>
+              <label class="float-end"><a href="index.html#!/register">Have account ?</a></label>
             </div>
-            <div class="form-group">
-              <label class="control-label col-sm-2" for="pwd">Password:</label>
-              <div class="col-sm-10">
-                <input type="password" class="form-control" ng-model="userModel.password" placeholder="Enter password">
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-sm-offset-2 col-sm-10">
-                <div class="checkbox">
-                  <label><input type="checkbox"> Remember me</label>
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-success" ng-click="login()">Login</button>
-              </div>
-            </div>
-          </form>
-    </div>
+        </div>
+            <button class="btn btn-success" type="submit" ng-click="login();">Login</button>
+      </form>
+</div>
+</section>
    

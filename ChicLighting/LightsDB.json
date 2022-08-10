@@ -7,18 +7,20 @@
     "size": "M",
     "price": 4495,
     "option": {
+      "lampType": "abc",
       "lightingStyle": "Soft/Diffused/Ambient",
       "material": "Metal wire frame and steel canopy",
       "madeIn": "Netherlands",
       "color": "Black White Bronze"
     },
+    "warranty": "abc",
     "description": "Designed by Bertjan Pot, the Moooi Heracleum III LED Chandelier is a decorative LED fixture inspired by the Heracleum plant. Here, the leaves are 63 polycarbonate lenses, which reflect the light of 63 internal LEDs.",
     "img": "images/Heracleum-III-LED-Chandelier1.webp",
     "imgReal": "images/Heracleum-III-LED-Chandelier2.webp"
   },
   {
     "id": 1,
-    "brand": "Chic Lamp",
+    "brand": "Lumens",
     "type": "Ceiling Lights",
     "nameItem": "Sommelier Chandelier",
     "size": "L",
@@ -35,14 +37,14 @@
   },
   {
     "id": 2,
-    "brand": "Chic Lamp",
+    "brand": "Ikea",
     "type": "Ceiling Lights",
     "nameItem": "Volver LED Linear Suspension",
     "size": "L",
     "price": 13900,
     "option": {
       "lightingStyle": "LED Built-in",
-      "material": "Handmade nickel-plated chains with a metal structure",
+      "material": "Handmade nickel-plated chains",
       "madeIn": "Italy",
       "color": "Black White Bronze"
     },
@@ -69,14 +71,14 @@
   },
   {
     "id": 4,
-    "brand": "Chic Lamp",
+    "brand": "Lumens",
     "type": "Lamps",
     "nameItem": "Contour LED Floor Lamp",
     "size": "S",
     "price": 795,
     "option": {
       "lightingStyle": "Glare-free illumination",
-      "material": "Aluminum structure with Fabric or Wooden Veneer interiors",
+      "material": "Aluminum structure with Fabric",
       "madeIn": "China",
       "color": "Black White Bronze"
     },
@@ -86,7 +88,7 @@
   },
   {
     "id": 5,
-    "brand": "Chic Lamp",
+    "brand": "Lumens",
     "type": "Lamps",
     "nameItem": "Stanley Floor Lamp",
     "size": "S",
@@ -103,7 +105,7 @@
   },
   {
     "id": 6,
-    "brand": "Chic Lamp",
+    "brand": "Ikea",
     "type": "Wall Lights",
     "nameItem": "Balthus LED Indoor/Outdoor Wall Sconce",
     "size": "S",
@@ -120,14 +122,14 @@
   },
   {
     "id": 7,
-    "brand": "Chic Lamp",
+    "brand": "Ikea",
     "type": "Wall Lights",
     "nameItem": "Tersus LED Wall Sconce",
     "size": "S",
     "price": 525,
     "option": {
       "lightingStyle": "Up and Downlight",
-      "material": "Solid Wood Shade with Base Diffuser and Stone or Metal accents",
+      "material": "Solid Wood Shade with Base Diffuser",
       "madeIn": "USA",
       "color": "Black White Bronze"
     },
