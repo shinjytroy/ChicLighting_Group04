@@ -156,6 +156,11 @@ app.controller("myCtrl", function($scope, $http, $routeParams, $location, $windo
     $scope.getClass = function(path){
         return ($location.path().substr(0,path.length) === path) ? 'active' : '';
     }
+    $scope.submitContact = function(){
+        alert("Thanks for ordering. We will contact to us as soon as possible");
+        $('#ModalCart').modal('hide');
+      }
+
     //Get params type => show title product
     if ($routeParams.type === "ceilingLight") {
         $scope.title = "Ceiling Lights";

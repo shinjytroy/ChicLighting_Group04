@@ -3,27 +3,27 @@
     <caption>
       <h1 align="center">MEMBER REGISTER</h1>
     </caption>
-    <form class="form-horizontal col-8 mx-auto" action="">
+    <form class="form-horizontal col-8 mx-auto" action="" onsubmit="alert('You have successfully registered. Thank you.')">
       <div class="form-group">
         <label class="form-label col-sm-2">Username:</label>
-        <input type="text" class="form-control" placeholder="Enter username">
+        <input type="text" class="form-control" placeholder="Enter username" required>
       </div>
       <div class="form-group ">
         <label class="form-label col-sm-2">Password:</label>
-        <input type="password" class="form-control" placeholder="Enter password">
+        <input type="password" class="form-control" placeholder="Enter password" required>
       </div>
       <div class="form-group ">
         <label class="form-label col-sm-2">Fullname:</label>
-        <input type="text" class="form-control" placeholder="Enter fullname">
+        <input type="text" class="form-control" placeholder="Enter fullname" required>
       </div>
       <div class="form-group ">
         <label class="form-label col-sm-2" for="email">Email:</label>
-        <input type="email" class="form-control" id="email" placeholder="Enter email">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
       </div>
       <div class="form-group ">
         <label class="form-label col-sm-2" for="tel">Phone:</label>
         <div class="col-sm-10 w-100">
-          <input type="number" class="form-control" id="tel" placeholder="Vui lòng nhập từ 8-12 số">
+          <input type="number" class="form-control" id="tel" placeholder="Enter your phone from 8 to 12 number" required>
         </div>
       </div>
       <div class="form-group ">
@@ -47,7 +47,7 @@
       </div>
       <div class="form-group ">
         <div class="col-sm-offset-2 col-sm-10 mt-2">
-          <button type="submit" class="btn btn-primary" onClick="alert('You have successfully registered. Thank you.')">Submit</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
           <button type="reset" class="btn btn-danger">Reset</button>
           <input type="button" class="btn btn-info" value="Help" onClick="alert('Under maintenance .....')">
         </div>

@@ -8,7 +8,7 @@
 		var curDay = curDate.getDate();
 		var curMonth = curDate.getMonth() + 1;
 		var curYear = curDate.getFullYear();
-		document.getElementById('current-time').innerHTML = "Today\'s Time is " + curHour + ":" + curMinute  + ":" + curSecond +" Date is " + curDay + "/" + curMonth + "/" + curYear;
+		document.getElementById('current-time').innerHTML = "Current time is " + curHour + ":" + curMinute  + ":" + curSecond +" Date is " + curDay + "/" + curMonth + "/" + curYear;
 	}, 1000);
 // Lấy tọa độ vị trí
     var x = document.getElementById('current-position');

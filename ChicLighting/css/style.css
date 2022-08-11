@@ -30,6 +30,10 @@ p{
 .pd-tb-48{
   padding: 48px 0;
 }
+.decoration__text{
+  text-decoration: line-through;
+  color: #666;
+}
 /* Heading Content */
 .heading{
   text-align: center;
@@ -142,7 +146,7 @@ p{
   font-size: 50px;
   color: white;
   background-color: rgba(0, 0, 0, 0.685);
-  margin: 20px 100px 0 100px;
+  margin: 25px;
   padding-left: 30px;
 }
 #product{
@@ -196,6 +200,12 @@ p{
   .product__detail{
     opacity: 0.8;
     height: 300px;
+  }
+  .product__card__offer{
+    margin: auto 5px 0 5px;
+  }
+  .product__contact__modal{
+    background-color: var(--bg-outside);
   }
   .col__title{
     background-color: #f9d2bf;
