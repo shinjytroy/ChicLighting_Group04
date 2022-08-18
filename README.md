@@ -13,4 +13,4 @@ CHIC LIGHTING
 - Published Website: https://shinjytroy.github.io/ChicLighting_Group04/
 =========================================================================
 
-Thank you to visit our website.
+Thank you to visit our website...
