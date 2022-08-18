@@ -1,0 +1,23 @@
+[{
+    "id": 1,
+    "username": "admin123",
+    "password": "admin@123",
+    "fullname": "Web Master",
+    "type": "admin",
+    "email": "admin@gmail.com",
+    "phone":"0987654321",
+    "gen":"Male",
+    "country": "Vietnam"
+},
+{
+    "id": 2,
+    "username": "user123",
+    "password": "user@123",
+    "fullname": "Sang Nguyen",
+    "type": "user",
+    "email": "user123@gmail.com",
+    "phone":"0123456789",
+    "gen":"Female",
+    "country": "Vietnam"
+}
+]

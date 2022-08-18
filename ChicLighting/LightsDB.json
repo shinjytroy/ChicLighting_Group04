@@ -1,0 +1,169 @@
+[
+  {
+    "id": 0,
+    "type": "Ceiling Lights",
+    "brand": "Chic Lamp",
+    "nameItem": "Heracleum III LED Chandelier",
+    "size": "M",
+    "price": {
+      "msrp": "4499",
+      "offer": "0.15",
+      "msOffer": "15% Savings Today"
+    },
+    "option": {
+      "lampType": "abc",
+      "lightingStyle": "Soft/Diffused/Ambient",
+      "material": "Metal wire frame and steel canopy",
+      "madeIn": "Netherlands",
+      "color": "Black White Bronze"
+    },
+    "warranty": "abc",
+    "description": "Designed by Bertjan Pot, the Moooi Heracleum III LED Chandelier is a decorative LED fixture inspired by the Heracleum plant. Here, the leaves are 63 polycarbonate lenses, which reflect the light of 63 internal LEDs.",
+    "img": "images/Heracleum-III-LED-Chandelier1.webp",
+    "imgReal": "images/Heracleum-III-LED-Chandelier2.webp"
+  },
+  {
+    "id": 1,
+    "brand": "Lumens",
+    "type": "Ceiling Lights",
+    "nameItem": "Sommelier Chandelier",
+    "size": "L",
+    "price": {
+      "msrp": "2399",
+      "offer": "0",
+      "msOffer": ""
+    },
+    "option": {
+      "lightingStyle": "Incandescent",
+      "material": "Wrought Iron",
+      "madeIn": "Philippines",
+      "color": "Black White Bronze"
+    },
+    "description": "The Currey & Company Sommelier Chandelier brings a DIY spin to the iconic form. Each layer of the tiered chandelier is made of pieces of individually cut glass from recycled bottles.",
+    "img": "images/Sommelier-Chandelier1.webp",
+    "imgReal": "images/Sommelier-Chandelier2.webp"
+  },
+  {
+    "id": 2,
+    "brand": "Ikea",
+    "type": "Ceiling Lights",
+    "nameItem": "Volver LED Linear Suspension",
+    "size": "L",
+    "price": {
+      "msrp": "13900",
+      "offer": "12510",
+      "msOffer": "10% Savings Today"
+    },
+    "option": {
+      "lightingStyle": "LED Built-in",
+      "material": "Handmade nickel-plated chains",
+      "madeIn": "Italy",
+      "color": "Black White Bronze"
+    },
+    "description": "A resplendent mass of burnished cascading fluidity, the Terzani Volver LED Linear Suspension emphatically elevates the extravagance, melding the company's aesthetic affinity for elegantly draped metal chain fixtures with energy efficient LED technology.",
+    "img": "images/Volver-LED-Linear-Suspension1.webp",
+    "imgReal": "images/Volver-LED-Linear-Suspension2.webp"
+  },
+  {
+    "id": 3,
+    "brand": "Chic Lamp",
+    "type": "Lamps",
+    "nameItem": "Tolomeo Mega Floor Lamp",
+    "size": "S",
+    "price": 1370,
+    "option": {
+      "lightingStyle": "Direct",
+      "material": "Die-Cast Aluminum",
+      "madeIn": "Italy",
+      "color": "Black White Bronze"
+    },
+    "description": "Whether adjusting for height, length or tilt, the Artemide Tolomeo Mega Floor Lamp does it all. Designed by Michele De Lucchi and Giancarlo Fassina, this floor lamp features an extruded and anodized aluminum articulated arm structure.",
+    "img": "images/Tolomeo-Mega-Floor-Lamp1.webp",
+    "imgReal": "images/Tolomeo-Mega-Floor-Lamp2.webp"
+  },
+  {
+    "id": 4,
+    "brand": "Lumens",
+    "type": "Lamps",
+    "nameItem": "Contour LED Floor Lamp",
+    "size": "S",
+    "price": 795,
+    "option": {
+      "lightingStyle": "Glare-free illumination",
+      "material": "Aluminum structure with Fabric",
+      "madeIn": "China",
+      "color": "Black White Bronze"
+    },
+    "description": "Finish: White with Walnut Veneer, Graphite with Walnut Veneer, White with White Oak Veneer, Graphite with White Oak Veneer, White with Pearl Fabric, Graphite with Coal Fabric",
+    "img": "images/Contour-LED-Floor-Lamp1.jpg",
+    "imgReal": "images/Contour-LED-Floor-Lamp2.webp"
+  },
+  {
+    "id": 5,
+    "brand": "Lumens",
+    "type": "Lamps",
+    "nameItem": "Stanley Floor Lamp",
+    "size": "S",
+    "price": 2490,
+    "option": {
+      "lightingStyle": "Bright/Task",
+      "material": "Brass",
+      "madeIn": "Portugal",
+      "color": "Black White Bronze"
+    },
+    "description": "Finish: Glossy Black and Gold Plated and Gold Powder Paint, Glossy Black and Nickel Plated and Grey Powder Paint, Glossy White and Gold Plated and Gold Powder Paint, Glossy White and Nickel Plated and Grey Powder Paint. Number of Lights: 2, 3",
+    "img": "images/Stanley-Floor-Lamp1.webp",
+    "imgReal": "images/Stanley-Floor-Lamp2.jpg"
+  },
+  {
+    "id": 6,
+    "brand": "Ikea",
+    "type": "Wall Lights",
+    "nameItem": "Balthus LED Indoor/Outdoor Wall Sconce",
+    "size": "S",
+    "price": 379,
+    "option": {
+      "lightingStyle": "Soft/Diffused/Ambient",
+      "material": "Aluminum",
+      "madeIn": "China",
+      "color": "Black White Bronze"
+    },
+    "description": "Modern LED fixture incorporates vintage-style design elements. The Balthus LED Indoor/Outdoor Wall Sconce by Modern Forms offers an elegant way to brighten your driveway, yard, or patio.",
+    "img": "images/Balthus-LED-Indoor-Outdoor-Wall-Sconce1.webp",
+    "imgReal": "images/Balthus-LED-Indoor-Outdoor-Wall-Sconce2.webp"
+  },
+  {
+    "id": 7,
+    "brand": "Ikea",
+    "type": "Wall Lights",
+    "nameItem": "Tersus LED Wall Sconce",
+    "size": "S",
+    "price": 525,
+    "option": {
+      "lightingStyle": "Up and Downlight",
+      "material": "Solid Wood Shade with Base Diffuser",
+      "madeIn": "USA",
+      "color": "Black White Bronze"
+    },
+    "description": "Sheer simplicity marks the Cerno Tersus LED Wall Sconce, a slender rectangle of solid wood set against a two-directional splash of indirect light. A frosted polymer core houses and diffuses the even spread of LED light, which is clasped to the front plate with smaller cuts of wood.",
+    "img": "images/Tersus-LED-Wall-Sconce1.jpg",
+    "imgReal": "images/Tersus-LED-Wall-Sconce2.webp"
+  },
+  {
+    "id": 8,
+    "brand": "Chic Lamp",
+    "type": "Wall Lights",
+    "nameItem": "Tolomeo Classic Wall Spot",
+    "size": "M",
+    "price": 255,
+    "option": {
+      "lightingStyle": "Indirect",
+      "material": "Die-cast Aluminum",
+      "madeIn": "Italy",
+      "color": "Black White Bronze"
+    },
+    "description": "The Artemide Tolomeo Classic Wall Spot, designed by Michele De Lucchi and Giancarlo Fassina, is a sophisticated, contemporary fixture that provides bright adjustable lighting for tasks. The aluminum shade swivels, tilts up and down and rotates 360 degrees. Available with or without a switch on the lampholder.",
+    "img": "images/Tolomeo-Classic-Wall-Spot1.webp",
+    "imgReal": "images/Tolomeo-Classic-Wall-Spot2.webp"
+  }
+]
