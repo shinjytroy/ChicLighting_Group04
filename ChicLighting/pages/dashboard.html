@@ -1,8 +1,8 @@
-    <h1>Dashboard</h1>
     <section class="container">
+        <h1>Dashboard</h1>
         <div style="margin: 30px 0">
             <table class="table table-hover">
-                <h1 align="center">USER INFORMATON</h1>
+                <h1 align="center">USER INFORMATONS</h1>
                 <tr>
                     <th>ID</th>
                     <th>Username</th>
@@ -31,11 +31,9 @@
                 </tr>
             </table>
         </div>
-    </section>
-    <section>
         <div style="margin: 30px 0">
-            <table class="table table-hover">
-                <h1 align="center">PRODUCT INFORMATON</h1>
+            <table class="table table-hover" width="100%">
+                <h1 align="center">PRODUCT INFORMATONS</h1>
                 <tr>
                     <th>ID</th>
                     <th>Type</th>
@@ -57,7 +55,7 @@
                     <td>{{product.brand}}</td>
                     <td>{{product.nameItem}}</td>
                     <td>{{product.size}}</td>
-                    <td>{{product.price}}</td>
+                    <td>{{product.price.msrp}}</td>
                     <td>{{product.option.lightingStyle}}</td>
                     <td>{{product.option.material}}</td>
                     <td>{{product.option.madeIn}}</td>
@@ -71,3 +69,5 @@
             </table>
         </div>
     </section>
+    
+    

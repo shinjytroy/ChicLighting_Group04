@@ -19,37 +19,9 @@
                 <td>{{userData.phone}}</td>
                 <td>{{userData.gen}}</td>
                 <td>{{userData.country}}</td>
+                <td></td>
+                <td></td>
             </tr>
         </table>
     </div>
-</section>
-<section>
-    <form name="myForm">
-        <table style="margin: 30px 0">
-            <tr>
-                <td class="add_label">Fullname: </td>
-                <td><input ng-model="userModel.fullname" name="txtFullName" required></td>
-            </tr>
-            <tr>
-                <td class="add_label">Email: </td>
-                <td><input ng-model="userModel.email" name="txtEmail" required></td>
-            </tr>
-            <tr>
-                <td class="add_label">Phone: </td>
-                <td><input ng-model="userModel.phone" name="txtPhone" required></td>
-            </tr>
-            <tr>
-                <td class="add_label">Gen: </td>
-                <td><input ng-model="userModel.gen" name="txtGen" required></td>
-            </tr>
-            <tr>
-                <td class="add_label">Country: </td>
-                <td><input ng-model="userModel.country" name="txtCountry" required></td>
-            </tr>
-            <tr>
-                <td class="add_label"></td>
-                <td><input class="btn btn-primary" type="button" value="Update" ng-disabled="btnUpdate" ng-click="updateData()"></td>
-            </tr>
-        </table>
-    </form>
 </section>

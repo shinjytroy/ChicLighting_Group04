@@ -57,7 +57,13 @@
 		// end if innerWidth
 	});
 	
-	
+function readMore(){
+	alert('Under maintaining.........!')
+}
+
+function clickSuccess(){
+	alert('Thank you for your interest in our website. Your contribution has been acknowledged !!!')
+}
 	
 	
 

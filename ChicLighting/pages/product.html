@@ -31,7 +31,7 @@
                   <th class="col__title col-lg-2">Name</th>
                   <th class="col__value col-lg-4">{{data.nameItem}}</th>
                   <th class="col__title col-lg-2">Price</th>
-                  <th class="col__value col-lg-4">{{data.price | currency:"$":0}}</th>
+                  <th class="col__value col-lg-4">{{data.price.msrp | currency:"$":0}}</th>
                 </tr>
                 <tr>
                   <th class="col__title col-lg-2">Brand</th>
@@ -78,10 +78,12 @@
                 </button>
               </div>
             </div>
-            <div class="d-inline-flex">
-              <p class="product__card__offer text-danger">15% Savings Today</pc>
-              <h5 class="product__card__offer decoration__text">{{data.price | currency:"$":0}}</h5>
-              <h3 class="product__card__offer">$1,599</h3>
+            <div>
+              <p class="product__card__offer text-danger">{{data.price.msOffer}}</pc>
+              <div class="d-flex flex-row-reverse">
+              <h5 class="product__card__offer decoration__text">{{data.price.msrp | currency:"$":0}}</h5>
+              <h4 class="product__card__offer">{{data.price.msrp - (data.price.offer * data.price.msrp) | currency:"$":0}}</h4>
+              </div>
             </div>
           </div>
         </div>
@@ -130,7 +132,7 @@
               </div>
             </div>
             <div class="text-end">
-              <h5>Price: $1.599</h5>
+              <h5>Price: {{data.price.offer}}</h5>
               <h5>Qualitiy: 1</h5>
             </div>
           </div>

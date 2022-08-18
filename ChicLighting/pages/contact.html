@@ -6,12 +6,12 @@
           <h3>Join Our Newsletter</h3>
           <p>Sign up for our newsletter to find out about special offers, exclusive promotions, sales and more.</p>
         </div>
-        <form class="contact__button">
+        <form class="contact__button" onsubmit="clickSuccess()">
           <div class="contact__icon">
             <i class="fa fa-paper-plane"></i>
           </div>
-          <input type="email" name="email" placeholder="Your Email Address">
-          <button class="contact__btnSubmit">Subscribe</button>
+          <input type="email" name="email" placeholder="Your Email Address" required>
+          <button type="submit" class="contact__btnSubmit">Subscribe</button>
         </form>
       </div>
   </div>
@@ -24,7 +24,7 @@
     </div>
     <div class="col-6">
       <h1 class="text-success" align="center">Online Contacts</h1>
-      <form class="form-horizontal ps-5" action="">
+      <form class="form-horizontal ps-5" action="" onsubmit="clickSuccess()">
         <div class="form-group">
           <label class="control-label col-sm-2" for="name">Name:</label>
           <div class="col-sm-10">
@@ -48,7 +48,7 @@
             <textarea class="form-control w-75" rows="5" id="comment" name="text" required></textarea>
           </div>
           <div class="form-group">
-            <input type="submit" class="btn btn-success m-2" value="Submit" onclick="alert('Thank you for your interest in our website. Your contribution has been acknowledged.')"></input>
+            <input type="submit" class="btn btn-success m-2" value="Submit"></input>
           </div>
       </form>
     </div>

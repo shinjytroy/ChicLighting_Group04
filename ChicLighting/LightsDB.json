@@ -5,7 +5,11 @@
     "brand": "Chic Lamp",
     "nameItem": "Heracleum III LED Chandelier",
     "size": "M",
-    "price": 4495,
+    "price": {
+      "msrp": "4499",
+      "offer": "0.15",
+      "msOffer": "15% Savings Today"
+    },
     "option": {
       "lampType": "abc",
       "lightingStyle": "Soft/Diffused/Ambient",
@@ -24,7 +28,11 @@
     "type": "Ceiling Lights",
     "nameItem": "Sommelier Chandelier",
     "size": "L",
-    "price": 2393,
+    "price": {
+      "msrp": "2399",
+      "offer": "0",
+      "msOffer": ""
+    },
     "option": {
       "lightingStyle": "Incandescent",
       "material": "Wrought Iron",
@@ -41,7 +49,11 @@
     "type": "Ceiling Lights",
     "nameItem": "Volver LED Linear Suspension",
     "size": "L",
-    "price": 13900,
+    "price": {
+      "msrp": "13900",
+      "offer": "12510",
+      "msOffer": "10% Savings Today"
+    },
     "option": {
       "lightingStyle": "LED Built-in",
       "material": "Handmade nickel-plated chains",

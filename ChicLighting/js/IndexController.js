@@ -74,8 +74,9 @@ app.controller("myCtrl", function($scope, $http, $routeParams, $location, $windo
     }
     //2.2. Gọi hàm getData để load dữ liệu vào danh sách
     getData();
-    //3.1. Khai báo hàm đọc data từ file JSON
+    // 
     $rootScope.isLogin = false;
+    //3.1. Khai báo hàm đọc data từ file JSON
     function getUser(){
         $http.get("UserDB.json")
         .then(function(rspt){
@@ -92,12 +93,13 @@ app.controller("myCtrl", function($scope, $http, $routeParams, $location, $windo
         })
     }
     getUser();
+    // Login đúng user ==> trang userInfo.html
     $scope.login = function(){
         var user = checkLogin($scope.userModel.username, $scope.userModel.password);
         if(user){
             sessionStorage.setItem('login',JSON.stringify(user));
             $rootScope.isLogin = true;
-            $location.path('/');
+            $location.path('/userInfo');
         }else{
             $rootScope.isLogin = false;
             alert('Thông tin tài khoản không hợp lệ');
@@ -112,7 +114,7 @@ app.controller("myCtrl", function($scope, $http, $routeParams, $location, $windo
         return false;
     }
     // Chuyển đổi biến login ở session Storage thành biến userData
-    $scope.userData = JSON.parse(sessionStorage.getItem("login"));
+    $scope.userData = JSON.parse(sessionStorage.getItem('login'));
     // Sign Out
     $scope.signOut = function(){
         sessionStorage.removeItem('login');
@@ -132,26 +134,26 @@ app.controller("myCtrl", function($scope, $http, $routeParams, $location, $windo
         $scope.btnUpdate = false;
     }
     //b. Sửa record
-    $scope.updateData = function(){
-        var msg = "Are you sure to update this record?";
-        $.grep($scope.userData, function(e){
-            if(e.id == $scope.userData.id){
-                if(confirm(msg)){
-                    e.fullname = $scope.userModel.fullname;
-                    e.email = $scope.userModel.email;
-                    e.phone = $scope.userModel.phone;
-                    e.gen = $scope.userModel.gen;
-                    e.country = $scope.userModel.country;
-                    $scope.btnUpdate = true;
-                    setStorage();
-                }
-            }
-        })
-    }
-    function setStorage(){
-        var data = JSON.stringify($scope.userList);
-        sessionStorage.setItem("sesUsers", data);
-    }
+    // $scope.updateData = function(){
+    //     var msg = "Are you sure to update this record?";
+    //     $.grep($scope.userData, function(e){
+    //         if(e.id == $scope.userData.id){
+    //             if(confirm(msg)){
+    //                 e.fullname = $scope.userModel.fullname;
+    //                 e.email = $scope.userModel.email;
+    //                 e.phone = $scope.userModel.phone;
+    //                 e.gen = $scope.userModel.gen;
+    //                 e.country = $scope.userModel.country;
+    //                 $scope.btnUpdate = true;
+    //                 setStorage();
+    //             }
+    //         }
+    //     })
+    // }
+    // function setStorage(){
+    //     var data = JSON.stringify($scope.userList);
+    //     sessionStorage.setItem("sesUsers", data);
+    // }
     // Add "Active Class"     
     $scope.getClass = function(path){
         return ($location.path().substr(0,path.length) === path) ? 'active' : '';
@@ -184,6 +186,18 @@ app.controller("myCtrl", function($scope, $http, $routeParams, $location, $windo
     }
     else if($routeParams.type === "homeAccent"){
         $scope.title = "Home Accents";
+        $scope.type = $scope.title;
+    }
+    else if($routeParams.type === "spotLight"){
+        $scope.title = "Spot Lights";
+        $scope.type = $scope.title;
+    }
+    else if($routeParams.type === "decorationLight"){
+        $scope.title = "Decoration Lights";
+        $scope.type = $scope.title;
+    }
+    else if($routeParams.type === "smartLight"){
+        $scope.title = "Smart Lights";
         $scope.type = $scope.title;
     }
     else{

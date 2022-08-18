@@ -1,4 +1,4 @@
-<header>
+<header class="container">
   <div>
     <!-- Carousel -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -18,7 +18,7 @@
           <div class="carousel-caption">
             <h3>Top 1 Seller</h3>
             <h5>From 4.000$</h5>
-            <button class="btn__ReadMore">Read More</button>
+            <a class="btn btn__ReadMore" href="#!product">See More</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -26,7 +26,7 @@
           <div class="carousel-caption">
             <h3>Top 2 Seller</h3>
             <h5>From 3.000$</h5>
-            <button class="btn__ReadMore">Read More</button>
+            <a class="btn btn__ReadMore" href="#!product/ceilingLight">See More</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -34,7 +34,7 @@
           <div class="carousel-caption">
             <h3>Top 1 Favourite</h3>
             <h5>From 2.500$</h5>
-            <button class="btn__ReadMore">Read More</button>
+            <a class="btn btn__ReadMore" href="#!product/outdoorLight">See More</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -42,16 +42,15 @@
           <div class="carousel-caption">
             <h3>Top 1 Best Choice</h3>
             <h5>From 2.000$</h5>
-            <button class="btn__ReadMore">Read More</button>
+            <a class="btn btn__ReadMore" href="#!product/homeAccent">See More</a>
           </div>
         </div>
-
         <div class="carousel-item">
           <img src="./images/ceiling-fan.jpg" class="d-block" alt="ceiling-fan" style="height: 400px; width: 100%;">
           <div class="carousel-caption">
             <h3>Top 2 Best Choice</h3>
             <h5>From 1.000$</h5>
-            <button class="btn__ReadMore">Read More</button>
+            <a class="btn btn__ReadMore" href="#!product/fan">See More</a>
           </div>
         </div>
       </div>
@@ -95,13 +94,13 @@
   </div>
 </section>
 <!-- How To Use -->
-<section>
-  <div class="container">
+<section class="container">
+  <div>
     <table width="100%">
       <tr>
         <td width="70%"><img style="width: 100%;" src="../images/how-to-choise.jpg" alt="how-to-choise"></td>
         <td class="howTo__content bg-dark px-5">
-          <h1 class="text-light">How to Choose a Light</h1>
+          <h1 class="text-light">How to choose a Light</h1>
           <small class="text-light">A Light is one of the most purchased pieces of furniture (both in terms of size and price) when furnishing a home, so it's important to find the right lamp and fit. with feng shui. This guide will go through the different sizes and options of indoor lighting and accent lights to better understand what works best for each space.</small>
         </td>
       </tr>
@@ -170,7 +169,7 @@
   </div>
 </section>
 <!-- Include About Us Page -->
-<div ng-include="'pages/aboutUs.html'"></div>
+<div class="container" ng-include="'pages/aboutUs.html'"></div>
 
 <!-- Number Upper -->
 <section class="number container">
@@ -194,75 +193,78 @@
   </div>
 </section>
 <!-- CUSTOMER'S REVIEW  -->
-<section class="review container" id="review">
-  <center>
-    <h1 class="heading text-dark"> Customer's <span>Review</span></h1>
-  </center>
-  <div class="container review-slider">
-    <div class="autoplay">
-      <div class="box" style="width: 100%;">
-        <img class="mx-auto" src="images/pic1.png" alt="">
-        <small>This is a website that I have been searching for a long time, it is beautiful and useful for our home
-          interior. Thanks for creating it </small>
-        <h3>Angelina Jolie</h3>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
+<section class="container">
+  <div class="review" id="review">
+    <center>
+      <h1 class="heading text-dark"> Customer's <span>Review</span></h1>
+    </center>
+    <div class="container review-slider">
+      <div class="autoplay">
+        <div class="box" style="width: 100%;">
+          <img class="mx-auto" src="images/pic1.png" alt="">
+          <small>This is a website that I have been searching for a long time, it is beautiful and useful for our home
+            interior. Thanks for creating it. </small>
+          <h3>Angelina Jolie</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
         </div>
-      </div>
-
-      <div class="box">
-        <img class="mx-auto" src="images/pic2.png" alt="">
-        <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad
-          tempore quasi tenetur.</small>
-        <h3>David Beckham</h3>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
+  
+        <div class="box">
+          <img class="mx-auto" src="images/pic2.png" alt="">
+          <small>This is a website that I have been searching for a long time, it is beautiful and useful for our home
+            interior. Thanks for creating it.</small>
+          <h3>David Beckham</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
         </div>
-      </div>
-
-      <div class="box">
-        <img class="mx-auto" src="images/pic3.png" alt="">
-        <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad
-          tempore quasi tenetur.</small>
-        <h3>Taylor Swift</h3>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
+  
+        <div class="box">
+          <img class="mx-auto" src="images/pic3.png" alt="">
+          <small>This is a website that I have been searching for a long time, it is beautiful and useful for our home
+            interior. Thanks for creating it.</small>
+          <h3>Taylor Swift</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
         </div>
-      </div>
-
-      <div class="box">
-        <img class="mx-auto" src="images/pic4.png" alt="">
-        <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad
-          tempore quasi tenetur.</small>
-        <h3>Sam Smith</h3>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
+  
+        <div class="box">
+          <img class="mx-auto" src="images/pic4.png" alt="">
+          <small>This is a website that I have been searching for a long time, it is beautiful and useful for our home
+            interior. Thanks for creating it.</small>
+          <h3>Sam Smith</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div>
-   <a href="#!more/feedback">Review</a>
+    <div class="text-end pe-3 pb-3">
+     <h5><a href="#!more/feedback">Click here to feedback to us</a></h5>
+    </div>
   </div>
 </section>
+
 <!-- Include Contact Page -->
-<div ng-include="'pages/contact.html'"></div>
+<div class="container" ng-include="'pages/contact.html'"></div>
 <script>
   $(".autoplay").slick({
     dots: true,

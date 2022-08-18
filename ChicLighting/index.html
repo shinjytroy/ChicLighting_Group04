@@ -16,19 +16,20 @@
   <title>Chic Lighting</title>
 </head>
 <body class="" ng-app="myApp" ng-controller="myCtrl">
-  <header class="sticky-top" ng-include="'pages/header.html'"></header>
+  <header class="sticky-top container" ng-include="'pages/header.html'"></header>
   <section>
     <div ng-view></div>
   </section>
-  <footer ng-include="'pages/footer.html'"></footer>
+  <footer class="container" ng-include="'pages/footer.html'"></footer>
   <a href="#" class="backtotop cd-top text-replace js-cd-top">
     <i class="fa fa-angle-up"></i>
   </a>
-  <div class="marquee container">
-    <div class="marquee__time" id="current-time"></div>
-    <div class="marquee__position" id="current-position"></div>
+  <div class=" container">
+    <div class="marquee">
+      <div class="marquee__time" id="current-time"></div>
+      <div class="marquee__position" id="current-position"></div>
+    </div>
   </div>
-  
 <!-- Jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" integrity="sha512-QDsjSX1mStBIAnNXx31dyvw4wVdHjonOwrkaIhpiIlzqGUCdsI62MwQtHpJF+Npy2SmSlGSROoNWQCOFpqbsOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
