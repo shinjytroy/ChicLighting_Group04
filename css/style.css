@@ -294,7 +294,7 @@ p{
   background-color: var(--white);
 }
 .contact{
-  background-image: url(/images/map.png);
+  background-image: url(../images/map.png);
   background-color: #151421;
   background-size: contain;
   background-repeat: no-repeat;
@@ -554,7 +554,7 @@ p{
   padding: 10px 0;
 }
 .register{
-  background-image: url('/images/background-register.webp');
+  background-image: url('../images/background-register.webp');
   background-size: cover;
   padding: 54px 0;
 }
@@ -563,7 +563,7 @@ p{
 }
 /* LOGIN */
 .login{
-  background-image: url('/images/background-login.jpg');
+  background-image: url('../images/background-login.jpg');
   background-size: contain;
   padding: 54px 0;
 }
