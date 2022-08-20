@@ -1,23 +1,23 @@
 [
   {
     "id": 0,
-    "type": "Ceiling Lights",
     "brand": "Chic Lamp",
+    "type": "Ceiling Lights",
     "nameItem": "Heracleum III LED Chandelier",
     "size": "M",
     "price": {
       "msrp": "4499",
-      "offer": "0.15",
-      "msOffer": "15% Savings Today"
+      "offer": "0.1",
+      "msOffer": "10% Savings Today"
     },
     "option": {
-      "lampType": "abc",
+      "lampType": "LED Built-in",
       "lightingStyle": "Soft/Diffused/Ambient",
       "material": "Metal wire frame and steel canopy",
       "madeIn": "Netherlands",
       "color": "Black White Bronze"
     },
-    "warranty": "abc",
+    "warranty": "2 years",
     "description": "Designed by Bertjan Pot, the Moooi Heracleum III LED Chandelier is a decorative LED fixture inspired by the Heracleum plant. Here, the leaves are 63 polycarbonate lenses, which reflect the light of 63 internal LEDs.",
     "img": "images/Heracleum-III-LED-Chandelier1.webp",
     "imgReal": "images/Heracleum-III-LED-Chandelier2.webp"
@@ -30,15 +30,17 @@
     "size": "L",
     "price": {
       "msrp": "2399",
-      "offer": "0",
-      "msOffer": ""
+      "offer": "0.1",
+      "msOffer": "10% Savings Today"
     },
     "option": {
+      "lampType": "Incandescent",
       "lightingStyle": "Incandescent",
       "material": "Wrought Iron",
       "madeIn": "Philippines",
       "color": "Black White Bronze"
     },
+    "warranty": "2 years",
     "description": "The Currey & Company Sommelier Chandelier brings a DIY spin to the iconic form. Each layer of the tiered chandelier is made of pieces of individually cut glass from recycled bottles.",
     "img": "images/Sommelier-Chandelier1.webp",
     "imgReal": "images/Sommelier-Chandelier2.webp"
@@ -51,15 +53,17 @@
     "size": "L",
     "price": {
       "msrp": "13900",
-      "offer": "12510",
+      "offer": "0.1",
       "msOffer": "10% Savings Today"
     },
     "option": {
+      "lampType": "LED Built-in",
       "lightingStyle": "LED Built-in",
       "material": "Handmade nickel-plated chains",
       "madeIn": "Italy",
       "color": "Black White Bronze"
     },
+    "warranty": "2 years",
     "description": "A resplendent mass of burnished cascading fluidity, the Terzani Volver LED Linear Suspension emphatically elevates the extravagance, melding the company's aesthetic affinity for elegantly draped metal chain fixtures with energy efficient LED technology.",
     "img": "images/Volver-LED-Linear-Suspension1.webp",
     "imgReal": "images/Volver-LED-Linear-Suspension2.webp"
@@ -70,13 +74,19 @@
     "type": "Lamps",
     "nameItem": "Tolomeo Mega Floor Lamp",
     "size": "S",
-    "price": 1370,
+    "price": {
+      "msrp": "1370",
+      "offer": "",
+      "msOffer": ""
+    },
     "option": {
+      "lampType": "LED Built-in",
       "lightingStyle": "Direct",
       "material": "Die-Cast Aluminum",
       "madeIn": "Italy",
       "color": "Black White Bronze"
     },
+    "warranty": "2 years",
     "description": "Whether adjusting for height, length or tilt, the Artemide Tolomeo Mega Floor Lamp does it all. Designed by Michele De Lucchi and Giancarlo Fassina, this floor lamp features an extruded and anodized aluminum articulated arm structure.",
     "img": "images/Tolomeo-Mega-Floor-Lamp1.webp",
     "imgReal": "images/Tolomeo-Mega-Floor-Lamp2.webp"
@@ -87,13 +97,19 @@
     "type": "Lamps",
     "nameItem": "Contour LED Floor Lamp",
     "size": "S",
-    "price": 795,
+    "price": {
+      "msrp": "795",
+      "offer": "",
+      "msOffer": ""
+    },
     "option": {
+      "lampType": "LED Built-in",
       "lightingStyle": "Glare-free illumination",
       "material": "Aluminum structure with Fabric",
       "madeIn": "China",
       "color": "Black White Bronze"
     },
+    "warranty": "1 year",
     "description": "Finish: White with Walnut Veneer, Graphite with Walnut Veneer, White with White Oak Veneer, Graphite with White Oak Veneer, White with Pearl Fabric, Graphite with Coal Fabric",
     "img": "images/Contour-LED-Floor-Lamp1.jpg",
     "imgReal": "images/Contour-LED-Floor-Lamp2.webp"
@@ -104,13 +120,19 @@
     "type": "Lamps",
     "nameItem": "Stanley Floor Lamp",
     "size": "S",
-    "price": 2490,
+    "price": {
+      "msrp": "2490",
+      "offer": "",
+      "msOffer": ""
+    },
     "option": {
+      "lampType": "Halogen",
       "lightingStyle": "Bright/Task",
       "material": "Brass",
       "madeIn": "Portugal",
       "color": "Black White Bronze"
     },
+    "warranty": "1 year",
     "description": "Finish: Glossy Black and Gold Plated and Gold Powder Paint, Glossy Black and Nickel Plated and Grey Powder Paint, Glossy White and Gold Plated and Gold Powder Paint, Glossy White and Nickel Plated and Grey Powder Paint. Number of Lights: 2, 3",
     "img": "images/Stanley-Floor-Lamp1.webp",
     "imgReal": "images/Stanley-Floor-Lamp2.jpg"
@@ -121,13 +143,19 @@
     "type": "Wall Lights",
     "nameItem": "Balthus LED Indoor/Outdoor Wall Sconce",
     "size": "S",
-    "price": 379,
+    "price": {
+      "msrp": "379",
+      "offer": "0.15",
+      "msOffer": "15% Savings Today"
+    },
     "option": {
+      "lampType": "LED Built-in",
       "lightingStyle": "Soft/Diffused/Ambient",
       "material": "Aluminum",
       "madeIn": "China",
       "color": "Black White Bronze"
     },
+    "warranty": "2 years",
     "description": "Modern LED fixture incorporates vintage-style design elements. The Balthus LED Indoor/Outdoor Wall Sconce by Modern Forms offers an elegant way to brighten your driveway, yard, or patio.",
     "img": "images/Balthus-LED-Indoor-Outdoor-Wall-Sconce1.webp",
     "imgReal": "images/Balthus-LED-Indoor-Outdoor-Wall-Sconce2.webp"
@@ -138,13 +166,19 @@
     "type": "Wall Lights",
     "nameItem": "Tersus LED Wall Sconce",
     "size": "S",
-    "price": 525,
+    "price": {
+      "msrp": "525",
+      "offer": "0.15",
+      "msOffer": "15% Savings Today"
+    },
     "option": {
+      "lampType": "LED Built-in",
       "lightingStyle": "Up and Downlight",
       "material": "Solid Wood Shade with Base Diffuser",
       "madeIn": "USA",
       "color": "Black White Bronze"
     },
+    "warranty": "2 years",
     "description": "Sheer simplicity marks the Cerno Tersus LED Wall Sconce, a slender rectangle of solid wood set against a two-directional splash of indirect light. A frosted polymer core houses and diffuses the even spread of LED light, which is clasped to the front plate with smaller cuts of wood.",
     "img": "images/Tersus-LED-Wall-Sconce1.jpg",
     "imgReal": "images/Tersus-LED-Wall-Sconce2.webp"
@@ -155,15 +189,297 @@
     "type": "Wall Lights",
     "nameItem": "Tolomeo Classic Wall Spot",
     "size": "M",
-    "price": 255,
+    "price": {
+      "msrp": "255",
+      "offer": "0.15",
+      "msOffer": "15% Savings Today"
+    },
     "option": {
+      "lampType": "Halogen",
       "lightingStyle": "Indirect",
       "material": "Die-cast Aluminum",
       "madeIn": "Italy",
       "color": "Black White Bronze"
     },
-    "description": "The Artemide Tolomeo Classic Wall Spot, designed by Michele De Lucchi and Giancarlo Fassina, is a sophisticated, contemporary fixture that provides bright adjustable lighting for tasks. The aluminum shade swivels, tilts up and down and rotates 360 degrees. Available with or without a switch on the lampholder.",
+    "warranty": "1 year",
+    "description": "The Artemide Tolomeo Classic Wall Spot, designed by Michele De Lucchi and Giancarlo Fassina, is a sophisticated, contemporary fixture that provides bright adjustable lighting for tasks. The aluminum shade swivels, tilts up and down and rotates 360 degrees.",
     "img": "images/Tolomeo-Classic-Wall-Spot1.webp",
     "imgReal": "images/Tolomeo-Classic-Wall-Spot2.webp"
+  },
+  {
+    "id": 9,
+    "brand": "Chic Lamp",
+    "type": "Outdoor Lights",
+    "nameItem": "Porter Outdoor Wall Sconce",
+    "size": "S",
+    "price": {
+      "msrp": "249",
+      "offer": "",
+      "msOffer": ""
+    },
+    "option": {
+      "lampType": "LED Built-in",
+      "lightingStyle": "Soft/Diffused/Ambient",
+      "material": "Aluminum",
+      "madeIn": "Made In China",
+      "color": "Black Bronze"
+    },
+    "warranty": "2 years",
+    "description": "The Hinkley Lighting Porter Outdoor Wall Sconce is a chic fusion of the Arts and Crafts, Modern Farmhouse and Industrial styles. The bold hardware and sturdy hangar loop uplift the piece, providing a visual balance to the minimal frame.",
+    "img": "images/Porter-Outdoor-Wall-Sconce1.webp",
+    "imgReal": "images/Porter-Outdoor-Wall-Sconce2.webp"
+  },
+  {
+    "id": 10,
+    "brand": "Lumens",
+    "type": "Outdoor Lights",
+    "nameItem": "Mason Coastal Outdoor Wall Sconce",
+    "size": "M",
+    "price": {
+      "msrp": "976",
+      "offer": "",
+      "msOffer": ""
+    },
+    "option": {
+      "lampType": "Halogen",
+      "lightingStyle": "Soft/Diffused/Ambient",
+      "material": "Aluminum",
+      "madeIn": "Made In USA",
+      "color": "Black Bronze"
+    },
+    "warranty": "Limited Lifetime",
+    "description": "A sparkling jewel for outdoor spaces. The Hubbardton Forge Mason Coastal Outdoor Wall Sconce features a hook-hung lantern silhouette, made new and modern with a tiered, circular aluminum cap.",
+    "img": "images/Mason-Coastal-Outdoor-Wall-Sconce1.webp",
+    "imgReal": "images/Mason-Coastal-Outdoor-Wall-Sconce2.webp"
+  },
+  {
+    "id": 11,
+    "brand": "Ikea",
+    "type": "Fans",
+    "nameItem": "Irene-HLK LED Flushmount 3 Blade Ceiling Fan",
+    "size": "L",
+    "price": {
+      "msrp": "850",
+      "offer": "0.1",
+      "msOffer": "10% Savings Today"
+    },
+    "option": {
+      "lampType": "Downlight",
+      "lightingStyle": "Downlight",
+      "material": "Cast Aluminum",
+      "madeIn": "Made In China",
+      "color": "Brown"
+    },
+    "warranty": "Limited Lifetime",
+    "description": "The Atlas by Matthews Fan Co. Irene-HLK LED Flushmount 3 Blade Ceiling Fan offers a sleek, industrial upgrade to your indoor or outdoor space. Made from machined aluminum and heavy stamped steel, the Irene-HLK LED Flushmount 3 Blade Ceiling Fan features three machine-cut.",
+    "img": "images/Irene-HLK-LED-Flushmount-3-Blade-Ceiling-Fan1.webp",
+    "imgReal": "images/Irene-HLK-LED-Flushmount-3-Blade-Ceiling-Fan2.webp"
+  },
+  {
+    "id": 12,
+    "brand": "Chic Lamp",
+    "type": "Fans",
+    "nameItem": "Artemis IV LED Ceiling Fan",
+    "size": "L",
+    "price": {
+      "msrp": "759",
+      "offer": "0.1",
+      "msOffer": "10% Savings Today"
+    },
+    "option": {
+      "lampType": "LED Built-in",
+      "lightingStyle": "Downlight",
+      "material": "Metal / Polymer Plastic",
+      "madeIn": "Made In China",
+      "color": "Silver"
+    },
+    "warranty": "1 year",
+    "description": "The Artemis IV LED Ceiling Fan by Minka Aire Fans sports fan blades that seemingly twist to make a groovy statement in any space. Crafted from metal and polymer plastic, the Artemis makes a grand statement with its visually captivating design.",
+    "img": "images/Artemis-IV-LED-Ceiling-Fan1.jfif",
+    "imgReal": "images/Artemis-IV-LED-Ceiling-Fan2.webp"
+  },
+  {
+    "id": 13,
+    "brand": "Lumens",
+    "type": "Home Accents",
+    "nameItem": "Justina Blakeney P0966 Accent Pillow",
+    "size": "S",
+    "price": {
+      "msrp": "89",
+      "offer": "0.2",
+      "msOffer": "20% Savings Today"
+    },
+    "option": {
+      "lampType": "",
+      "lightingStyle": "",
+      "material": "Polyester, Acrylic",
+      "madeIn": "Made In India",
+      "color": ""
+    },
+    "warranty": "",
+    "description": "Add a comforting visual piece to the décor of your modern home with the Justina Blakeney P0966 Accent Pillow from Loloi. Made in India, this piece features a mix of polyester and acrylic formed with a handcrafted technique.",
+    "img": "images/Justina-Blakeney-P0966-Accent-Pillow1.webp",
+    "imgReal": "images/Justina-Blakeney-P0966-Accent-Pillow2.webp"
+  },
+  {
+    "id": 14,
+    "brand": "Ikea",
+    "type": "Home Accents",
+    "nameItem": "ED Ellen DeGeneres P4108 Accent Pillow",
+    "size": "S",
+    "price": {
+      "msrp": "69",
+      "offer": "0.2",
+      "msOffer": "20% Savings Today"
+    },
+    "option": {
+      "lampType": "",
+      "lightingStyle": "",
+      "material": "Wool, Polyester, Rayon, Cotton",
+      "madeIn": "Made In India",
+      "color": ""
+    },
+    "warranty": "",
+    "description": "A comforting and stylish modern piece, the ED Ellen DeGeneres P4108 Accent Pillow from Loloi accents perfectly with a range of home styles. The piece is made in India and contains a mix of wool, polyester, rayon, and cotton. ",
+    "img": "images/ED-Ellen-DeGeneres-P4108-Accent-Pillow1.webp",
+    "imgReal": "images/ED-Ellen-DeGeneres-P4108-Accent-Pillow2.webp"
+  },
+  {
+    "id": 15,
+    "brand": "Chic Lamp",
+    "type": "Spot Lights",
+    "nameItem": "CY1 Adjustable LED Cylinder Spot Light",
+    "size": "S",
+    "price": {
+      "msrp": "448",
+      "offer": "",
+      "msOffer": ""
+    },
+    "option": {
+      "lampType": "LED Built-in",
+      "lightingStyle": "Adjustable Task",
+      "material": "Die-Cast Aluminum",
+      "madeIn": "Made In USA",
+      "color": "white black"
+    },
+    "warranty": "",
+    "description": "Add a sprightly splash of focused light to your inside spaces with the smooth and stylish presence of the CY1 Adjustable LED Cylinder Spot Light from Lucifer Lighting. A stylish minimalist piece made of machined aluminum.",
+    "img": "images/CY1-Adjustable-LED-Cylinder-Spot-Light1.webp",
+    "imgReal": "images/CY1-Adjustable-LED-Cylinder-Spot-Light2.webp"
+  },
+  {
+    "id": 16,
+    "brand": "Lumens",
+    "type": "Spot Lights",
+    "nameItem": "Loke Spot Light",
+    "size": "S",
+    "price": {
+      "msrp": "49",
+      "offer": "",
+      "msOffer": ""
+    },
+    "option": {
+      "lampType": "Halogen",
+      "lightingStyle": "Soft/Diffused/Ambient",
+      "material": "100% Steel",
+      "madeIn": "Made In China",
+      "color": "silver"
+    },
+    "warranty": "1 year",
+    "description": "Offered in a clean, aluminum structure build, the Eglo Loke Spot Light offers countless hours of crisp directional lighting to illuminate your interior space. Featuring a robust angular build, the Loke Spotlight provides dimmable spotlighting with lasting reliability and longevity.",
+    "img": "images/Loke-Spot-Light1.webp",
+    "imgReal": "images/Loke-Spot-Light2.webp"
+  },
+  {
+    "id": 17,
+    "brand": "Ikea",
+    "type": "Decoration Lights",
+    "nameItem": "IC Wall/Ceiling Light",
+    "size": "M",
+    "price": {
+      "msrp": "685",
+      "offer": "",
+      "msOffer": ""
+    },
+    "option": {
+      "lampType": "Xenon",
+      "lightingStyle": "Ceiling Mount",
+      "material": "Steel, Blown glass",
+      "madeIn": "Made In Italy",
+      "color": "Gold"
+    },
+    "warranty": "",
+    "description": "Built with a no-frills, minimalist aesthetic, the IC Wall/Ceiling Light by FLOS provides warm, immersive lighting through its characteristic halogen bulb housed within glass.",
+    "img": "images/IC-Wall-Ceiling-Light1.webp",
+    "imgReal": "images/IC-Wall-Ceiling-Light2.webp"
+  },
+  {
+    "id": 18,
+    "brand": "Chic Lamp",
+    "type": "Decoration Lights",
+    "nameItem": "Clizia Wall / Flushmount",
+    "size": "M",
+    "price": {
+      "msrp": "460",
+      "offer": "",
+      "msOffer": ""
+    },
+    "option": {
+      "lampType": "LED",
+      "lightingStyle": "Soft/Diffused/Ambient",
+      "material": "Stainless steel supports",
+      "madeIn": "Made In Italy",
+      "color": "white"
+    },
+    "warranty": "2 years",
+    "description": "The Slamp Clizia Wall / Flushmount unites soft geometry, handcrafted detail and material innovation in a glowing cluster of interlocked squares. Manually assembled, the numerous pieces are made from the patented and recyclable material Opalflex® which resembles cut sea glass.",
+    "img": "images/Clizia-Wall-Flushmount1.webp",
+    "imgReal": "images/Clizia-Wall-Flushmount2.webp"
+  },
+  {
+    "id": 19,
+    "brand": "Lumens",
+    "type": "Smart Lights",
+    "nameItem": "Smart RGB LED Undercabinet Light",
+    "size": "M",
+    "price": {
+      "msrp": "129",
+      "offer": "",
+      "msOffer": ""
+    },
+    "option": {
+      "lampType": "LED Built-in",
+      "lightingStyle": "Soft/Diffused/Ambient",
+      "material": "Aluminum",
+      "madeIn": "Made In China",
+      "color": "White"
+    },
+    "warranty": "5 Years",
+    "description": "Enhance the atmosphere and appeal of the lighting arrangement in your modern home with the unique demonstration of the Smart RGB LED Undercabinet Light from DALS Lighting. Easy to install by design, this slim rectangular piece connects directly to the underside of cabinet spaces with a plug-in driver. ",
+    "img": "images/Smart-RGB-LED-Undercabinet-Light1.webp",
+    "imgReal": "images/Smart-RGB-LED-Undercabinet-Light2.webp"
+  },
+  {
+    "id": 20,
+    "brand": "Ikea",
+    "type": "Smart Lights",
+    "nameItem": "Tower Bluetooth LED Indoor/Outdoor Lamp",
+    "size": "M",
+    "price": {
+      "msrp": "275",
+      "offer": "",
+      "msOffer": ""
+    },
+    "option": {
+      "lampType": "LED Built-in",
+      "lightingStyle": "Cordless, wireless light",
+      "material": "Polyethylene",
+      "madeIn": "Made In China",
+      "color": "Translucent White"
+    },
+    "warranty": "1 year",
+    "description": "The Smart & Green Tower Bluetooth LED Indoor/Outdoor Lamp is a towering tube of bright--and potentially color-changing--light. It is made out of sturdy and waterproof polyethylene, which diffuses the light of the internal LEDs in all directions.",
+    "img": "images/Tower-Bluetooth-LED-Indoor-Outdoor-Lamp1.jfif",
+    "imgReal": "images/Tower-Bluetooth-LED-Indoor-Outdoor-Lamp2.webp"
   }
 ]

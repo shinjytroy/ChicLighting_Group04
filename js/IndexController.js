@@ -133,27 +133,7 @@ app.controller("myCtrl", function($scope, $http, $routeParams, $location, $windo
         $scope.userModel.country = user.country;
         $scope.btnUpdate = false;
     }
-    //b. Sửa record
-    // $scope.updateData = function(){
-    //     var msg = "Are you sure to update this record?";
-    //     $.grep($scope.userData, function(e){
-    //         if(e.id == $scope.userData.id){
-    //             if(confirm(msg)){
-    //                 e.fullname = $scope.userModel.fullname;
-    //                 e.email = $scope.userModel.email;
-    //                 e.phone = $scope.userModel.phone;
-    //                 e.gen = $scope.userModel.gen;
-    //                 e.country = $scope.userModel.country;
-    //                 $scope.btnUpdate = true;
-    //                 setStorage();
-    //             }
-    //         }
-    //     })
-    // }
-    // function setStorage(){
-    //     var data = JSON.stringify($scope.userList);
-    //     sessionStorage.setItem("sesUsers", data);
-    // }
+    
     // Add "Active Class"     
     $scope.getClass = function(path){
         return ($location.path().substr(0,path.length) === path) ? 'active' : '';
@@ -202,14 +182,5 @@ app.controller("myCtrl", function($scope, $http, $routeParams, $location, $windo
     }
     else{
         $scope.title = "";
-    }
-    if($routeParams.brand === "chicLamp"){
-        $scope.brand = "Chic Lamp";
-    }
-    else if($routeParams.brand === "lumens"){
-        $scope.brand = "Lumens";
-    }
-    else if($routeParams.brand === "ikea"){
-        $scope.brand = "Ikea";
     }
 })
